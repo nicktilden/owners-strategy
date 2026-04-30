@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import { PriorityMatrix } from "@/components/priority-matrix"
 import { RaciMap } from "@/components/raci-map"
 import { Sequencing } from "@/components/sequencing"
@@ -27,6 +28,9 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <header className="border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-6 py-8">
+          <Link href="/" className="text-xs uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors mb-6 inline-block">
+            ← Owners Strategy
+          </Link>
           <h1 className="text-3xl font-semibold tracking-tight text-foreground">Ideal Owner Experience</h1>
           <p className="mt-2 text-lg text-muted-foreground text-pretty max-w-2xl">
             How owner value, business impact, and platform readiness shape what we build next.
