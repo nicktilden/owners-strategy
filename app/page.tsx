@@ -12,16 +12,20 @@ const workstreams = [
     description: "The top 10 things every product team needs to know about the Owners segment.",
   },
   {
+    href: "/model-studio",
+    label: "Model Studio",
+    description: "Define and visualize object models — attributes, relationships, hierarchy, and rules.",
+  },
+  {
     href: "#",
     label: "The Loop",
     description: "Continuous feedback and signal tracking across the owner journey.",
     comingSoon: true,
   },
   {
-    href: "#",
+    href: "/journey-map",
     label: "Owners Journey",
     description: "End-to-end mapping of the owner experience across key lifecycle stages.",
-    comingSoon: true,
   },
 ]
 
